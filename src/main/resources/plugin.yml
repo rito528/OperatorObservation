@@ -1,0 +1,4 @@
+name: OperatorObservation
+version: '${project.version}'
+main: com.github.unchama.operatorobservation.OperatorObservation
+authors: [ rito528 ]
