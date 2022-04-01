@@ -2,14 +2,14 @@ name: Build and publish docker image
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@main
+        uses: actions/checkout@master
         with:
           fetch-depth: '0'
         
